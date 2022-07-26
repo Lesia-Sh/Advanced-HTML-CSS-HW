@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  display: block;
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  display: block;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  color: #4d4d4d;
+  font-size: 24px;
+  opacity: 0.7;
+}
+a {
+  text-align: center;
+  color: var(--primary-color);
+  display: block;
+}
+p {
+  background-color: var(--secondary-color);
+}
+.navigation-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+.about-me-button {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 4px;
+  width: 10%;
+}
+.contact-me-button {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 4px;
+  width: 10%;
+}
+.about-paragraphs {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.email-link {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.col-1 {
+  width: 45%;
+}
+.col-2 {
+  width: 45%;
+}
